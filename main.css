@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;    
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    margin: 7rem 5rem;
+    padding: 5.6rem 2.6rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(249, 249, 249);
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    padding:1rem;
+    top: 0;
+    right: 0;
+    box-shadow: 0.5rem 0.8rem 0.5rem;
+    z-index: 10;
+}
+
+.navigation .navRight {
+    padding-left: 2rem;
+}
+
+.navRight a {
+    text-decoration: none;
+    color: black;
+}
+
+.navRight a:hover {
+    color: dodgerblue;
+    transition: all 100ms ease-in 1ms;
+    -webkit-transition: all 100ms ease-in 1ms;
+    -moz-transition: all 100ms ease-in 1ms;
+    -ms-transition: all 100ms ease-in 1ms;
+    -o-transition: all 100ms ease-in 1ms;
+}
+.navigation .middle a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.navigation .middle a:hover {
+    background-color: dodgerblue;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    transition: all 1ms ease;
+    -webkit-transition: all 1ms ease;
+    -moz-transition: all 1ms ease;
+    -ms-transition: all 1ms ease;
+    -o-transition: all 1ms ease;
+}
+
+.btnContainer {
+    background-color: rgb(95, 115, 187);
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    transition: all .5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.btnContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btnContainer:hover {
+    background-color: dodgerblue;
+}
+
+.heroSection {
+    margin-top: 2.5rem;
+    background: white;
+    height: 100vh;
+}
+
+.heroBigCon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.heroSection .heroContainer h1 {
+    color: dodgerblue;
+    padding-left: 2.5rem;
+    font-size: 2.5rem;
+    
+}
+
+.heroSection .heroContainer p {
+    color: black;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+.heroSection .heroContainer .line {
+    border: 1px solid dodgerblue;
+    width: 5rem;
+}
+
+.heroSection .containerRight img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+/* ABOUT */
+
+ .about {
+    background: rgb(230, 227, 227);
+    /* background-image: linear-gradient(90deg, rgb(230, 227, 227), rgb(220, 216, 216)); */
+}
+
+.about .aboutMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.about .aboutMe img {
+    opacity: 0.8;
+    height: 30rem;
+    width: 30rem;   
+}
+.about .aboutText h3{
+    color: dodgerblue;
+    font-size: 1rem;  
+    letter-spacing: 0.5rem;
+}
+
+.about .aboutText h2 {
+    color: white;
+    font-size: 4rem;
+}
+
+.about .aboutText h2 span {
+    color: dodgerblue;
+}
+
+.about .aboutText h2 span:hover {
+    color: black;
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+}
+
+.about .aboutText .line {
+    border: 1px solid dodgerblue;
+    width: 5rem;
+    
+}
+
+.about .aboutText .picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+}
+
+.about .aboutText .picture .imageOne {
+    display: flex;
+    gap: 2rem;
+}
+
+.about .aboutText .picture .imageOne h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.about .aboutText .picture .imageOne img {
+    height: 50px;
+    width: 50px;
+}
+
+.service .cardContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5rem;
+}
+
+
+
+.cardContainer .cardLeft .line {
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+    -moz-text-decoration-color: dodgerblue;
+}
+
+.cardContainer .cardLeft h5 {
+    color: dodgerblue;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cardContainer .cardLeft h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.cardContainer .cardLeft p {
+    margin-bottom: 3rem;
+}
+
+.cardContainer .cardLeft a:hover {
+    color: black;
+    background: darkslategrey;
+}
+
+.cardContainer .cardRight {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cardContainer .cardRight .card {
+    background-image: linear-gradient(silver,rgb(29, 29, 29));
+    height: 10rem;
+    width: 15rem;
+    display: grid;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    animation: mySlide  1s ease-in 0s 1;
+    -webkit-animation: mySlide  1s ease-in 0s 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+@keyframes mySlide {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
+
+.cardContainer .cardRight .card:hover {
+    opacity: 0.8;
+
+}
+
+.cardContainer .cardRight h5 {
+    color: white;
+    text-align: center;
+}
+
+.cardContainer .cardRight p {
+    color: silver;
+    text-align: center;
+    
+}
+
+.cardContainer .cardRight .card img {
+    height: 3rem;
+    width: 3rem;
+   margin: 1rem 6rem 0 6rem;
+}
+
+/* contact */
+.contactUs h2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.myContact {
+    padding: 5rem;
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+.myContact .contactBox .form-group {
+    padding: 1rem;
+    
+}
+
+.form-group input[type="text"] {
+    height: 3rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    
+}
+
+.formBox input[type="email"] {
+    height: 3rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.myContact .contactBox .formBox {
+    padding: 1rem;
+}
+
+.myContact .contactBox .formComment {
+    padding: 1rem;
+
+}
+
+.myContact .contactBox .botton {
+    background-color: dodgerblue;
+    padding: 1rem;
+    width: 6rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    
+}
+
+.myContact .contactBox .botton input {
+    cursor: pointer;
+    align-items: center;
+}
+
+.myContact .moreInfo h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+}
+
+.myContact .moreInfo h3 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-right: 12rem;
+}
+
+.myContact .moreInfo h3 span:hover {
+    color: dodgerblue;
+}
+
+.myContact .moreInfo p {
+    color: black;
+    font-size: 1rem;
+}
+
+.myContact .moreInfo .line {
+    border: 1px solid dodgerblue;
+    width: 5rem;   
+}
+
+.myContact .locateMe i {
+    color: dodgerblue;
+    font-size: 2rem;
+}
+
+.myContact .locateMe i p {
+    color: black;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding: 1rem;
+}
+
+.myContact .locateMe i a {
+    text-decoration: none;
+    padding: 1rem;
+    background: dodgerblue;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.myContact .locateMe i a:hover {
+    background: silver;
+    color: black;
+}
+
+
+/* skills */
+.SectionSkills .textSkill {
+    display: grid;
+} 
+
+
+
+.SectionSkills .textSkill h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.SectionSkills .textSkill .skillHtml {
+    display: grid;
+    margin-left: 8rem;
+}
+.SectionSkills .textSkill .skillHtml .html{
+    width: 80%;
+    background-color: silver;
+    height: 3rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.SectionSkills .textSkill i {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: dodgerblue;
+}
+.SectionSkills .textSkill .skillHtml .html p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background: dodgerblue;
+    width: 70%;
+    border-radius: 10px;
+    height: 3rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+/* footer section */
+.footerSection {
+    border-top: 1px solid dodgerblue;
+    text-align: center;
+    margin: 2rem 0;
+    padding-top: 1rem;
+}
+
+.footerSection a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.whtspp {
+    color: lightgreen;
+}
+
+.tweet {
+    color: blue;
+}
+
+.gram {
+    color: lightcoral;
+}
+.fb {
+    color: blue;
+}
+
+
+
+/**********MEDIA QUARIES************/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/*********for samll phones*************/
+@media screen and (max-width:460px){
+    
+}
