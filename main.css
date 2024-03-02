@@ -161,7 +161,6 @@ section{
 
  .about {
     background: rgb(230, 227, 227);
-    /* background-image: linear-gradient(90deg, rgb(230, 227, 227), rgb(220, 216, 216)); */
 }
 
 .about .aboutMe {
